@@ -1,0 +1,9 @@
+[submodule "model/uml/imports/CoreModel"]
+	path = model/uml/imports/CoreModel
+	url = git@github.com:OpenNetworkingFoundation/CoreInfoModel.git
+[submodule "model/uml/imports/EagleYangUml"]
+	path = model/uml/imports/EagleYangUml
+	url = git@github.com:OpenNetworkingFoundation/EagleYangUml.git
+[submodule "model/uml/imports/EagleUmlCommon"]
+	path = model/uml/imports/EagleUmlCommon
+	url = git@github.com:OpenNetworkingFoundation/EagleUmlCommon.git

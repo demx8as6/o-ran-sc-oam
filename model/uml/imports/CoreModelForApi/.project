@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>CoreModelForApi</name>
+	<comment>A pruned and refactored ONF CoreInformationModel used for interfacing between and SDN Controller and devices or domain-controller.</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
