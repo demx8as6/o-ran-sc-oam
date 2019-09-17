@@ -65,7 +65,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_dTH5ULUZEemSArf9Yd2dcg" name="Diagrams"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_lB8mMLUZEemSArf9Yd2dcg" name="Assoziations">
-    <packagedElement xmi:type="uml:Association" xmi:id="_k9WC8LUtEemSArf9Yd2dcg" name="hasManagedFunction" memberEnd="_k9ZtULUtEemSArf9Yd2dcg _k9aUYrUtEemSArf9Yd2dcg">
+    <packagedElement xmi:type="uml:Association" xmi:id="_k9WC8LUtEemSArf9Yd2dcg" name="MEcontainsMF" memberEnd="_k9ZtULUtEemSArf9Yd2dcg _k9aUYrUtEemSArf9Yd2dcg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k9YfMLUtEemSArf9Yd2dcg" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k9ZGQLUtEemSArf9Yd2dcg" key="nature" value="UML_Nature"/>
       </eAnnotations>
