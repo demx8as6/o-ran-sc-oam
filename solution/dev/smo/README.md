@@ -71,8 +71,7 @@ docker-compose up -d
 
   * ODL karaf.logs can be found on docker host
 ```
-cd /var/tmp/sdnr/logs
-tail -f karaf.log
+tail -f /var/tmp/sdnr/logs/karaf.log
 ```
 
   * karaf console access (karaf:karaf)
@@ -84,8 +83,7 @@ ssh karaf@localhost -p 8101
   * ves-testcollector logs
 
 ```
-  cd /var/tmp/ves-v5/logs
-  tail -f evel-output.log
+  tail -f /var/tmp/ves-v5/logs/evel-output.log
 ```
 
 ### Customizing Solution
@@ -132,8 +130,7 @@ ssh karaf@localhost -p 8101
 #### Connectivity SDN-R to VES-testcollector 
   * verify VES-testcollector on host terminal
   ```
-  cd /var/tmp/ves-v5/logs
-  tail -f evel-output.log
+  tail -f /var/tmp/ves-v5/logs/evel-output.log
   ```
   
   * heart beat events should be visible
