@@ -31,10 +31,10 @@ services:
     volumes:
      - ${LOCAL_SDNR_MOUNT}/sdnr/logs:${ODL_HOME}/data/log
      - type: bind 
-       source: ./ressources/devicemanager.properties
+       source: ./resources/devicemanager.properties
        target: ${ODL_HOME}/etc/devicemanager.properties   
      - type: bind
-       source: ./ressources/org.ops4j.pax.logging.cfg
+       source: ./resources/org.ops4j.pax.logging.cfg
        target: ${ODL_HOME}/etc/org.ops4j.pax.logging.cfg
     logging:
       driver:   "json-file"
@@ -52,10 +52,10 @@ services:
     volumes:
      - ${LOCAL_VES_MOUNT}/ves-v${VES_API}/logs:/VES5.0/evel/evel-test-collector/logs
      - type: bind
-       source: ./ressources/${VES_FORMAT_FILE}
+       source: ./resources/${VES_FORMAT_FILE}
        target: /VES5.0/evel/evel-test-collector/docs/att_interface_definition/event_format_updated.json
      - type: bind
-       source: ./ressources/go-collector.sh
+       source: ./resources/go-collector.sh
        target: /VES5.0/evel/evel-test-collector/scripts/linux/go-collector.sh
     logging:
       driver: "json-file"
